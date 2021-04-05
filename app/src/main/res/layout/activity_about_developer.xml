@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/roundedbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.fonts.CipherBold
+            android:layout_width="fill_parent"
+            android:text="About Developer" android:paddingTop="10dp" android:paddingBottom="10dp"
+            android:gravity="center"
+            android:textSize="@dimen/hedertextsize"
+            android:textColor="@color/primary"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            >
+
+            <com.fonts.CipherBold
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content" android:textColor="@color/textbrown"
+                android:text="Name\nIndianAppWorld" android:textStyle="bold" android:id="@+id/name"
+                android:textSize="@dimen/hedertextsize" android:layout_marginLeft="10dip"
+                android:layout_marginTop="5dip"
+                />
+
+            <com.fonts.CipherBold
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content" android:textColor="@color/textbrown"
+                android:text="Contact Email\nindianappworld@gmail.com" android:textStyle="bold" android:id="@+id/emaili"
+                android:textSize="@dimen/hedertextsize" android:layout_marginLeft="10dip"
+                android:layout_marginTop="20dip"
+                />
+
+
+            <com.fonts.CipherBold
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content" android:textColor="@color/textbrown"
+                android:text="For any suggestion or application requirement you may contact us on above mentioned email address. We will glad to assist you." android:textStyle="bold" android:id="@+id/email"
+                android:textSize="@dimen/hedertextsize" android:layout_marginLeft="10dip"
+                android:layout_marginTop="20dip"
+                />
+        </LinearLayout>
+
+
+
+        <com.fonts.CipherBold
+            android:layout_width="fill_parent"
+            android:text="OK" android:paddingTop="10dp" android:paddingBottom="10dp"
+            android:gravity="center"
+            android:id="@+id/ok"
+            android:textSize="@dimen/hedertextsize"
+            android:textColor="@color/primary"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/bg_gradient">
+
+        <com.fonts.AlviNastaLiqBold
+            android:text="Hello"
+            android:padding="10dp"
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:textSize="@dimen/maintitlefont_arabic"
+            android:textColor="@color/textbrown"
+            android:id="@+id/txtTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/textbrown"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+</LinearLayout>
