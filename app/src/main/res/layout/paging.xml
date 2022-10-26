@@ -120,8 +120,8 @@
                     app:tbBorderWidth="2dp"
                     app:tbOffBorderColor="#ffffff"
                     app:tbOffColor="#ddd"
-                    app:tbOnColor="@color/sideoptionclicktext"
-                    app:tbSpotColor="@color/primary"></com.zcw.togglebutton.ToggleButton>
+                    app:tbOnColor="#302484"
+                    app:tbSpotColor="@color/textbrown"></com.zcw.togglebutton.ToggleButton>
 
 
 

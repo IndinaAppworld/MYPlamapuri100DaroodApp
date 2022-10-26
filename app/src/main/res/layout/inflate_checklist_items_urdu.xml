@@ -7,17 +7,18 @@
     <LinearLayout
         android:orientation="vertical" android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
         android:background="@drawable/bg_gradient">
 
         <com.fonts.AlviNastaLiqBold
+            android:layout_marginRight="10dp"
             android:text="Hello"
-            android:padding="10dp"
+            android:padding="5dp"
             android:gravity="right"
             android:layout_gravity="right"
             android:textSize="@dimen/maintitlefont_arabic"
-            android:textColor="@color/textbrown"
+            android:textColor="#302484"
             android:id="@+id/txtTitle1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -28,7 +29,7 @@
 
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:background="@color/textbrown"
+        android:background="#302484"
         android:layout_width="match_parent"
         android:layout_height="1dp" />
 

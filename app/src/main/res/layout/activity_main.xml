@@ -69,7 +69,7 @@
     </RelativeLayout>
     <LinearLayout
 
-        android:background="@color/textbrown"
+        android:background="#afdff9"
         android:layout_gravity="start"
         android:choiceMode="singleChoice"
         android:layout_width="wrap_content"
@@ -77,22 +77,24 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/sideimage"
             android:layout_gravity="center"
-            android:src="@drawable/khanqa_logo"
+            android:src="@drawable/logo"
             android:layout_centerHorizontal="true"
             />
 
         <View
+            android:visibility="gone"
             android:background="#ffffff"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_width="match_parent"
             android:layout_height="1dp"  />
         <ListView
+            android:layout_marginTop="20dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:id="@+id/list_slidermenu"
@@ -100,7 +102,7 @@
             android:layout_width="240dp"
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
-            android:divider="#ffffff"
+            android:divider="#302484"
             android:dividerHeight="1dp" />
 
 
